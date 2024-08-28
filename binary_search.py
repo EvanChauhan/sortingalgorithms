@@ -1,7 +1,8 @@
 def binary_search(list, item):
   # low and high keep track of which part of the list you'll search in.
   low = 0
-  high = len(list) - 1
+  high = len(list) - 1 
+  # THIS WILL ONLY WORK IF THE INPUT IS NOT NONE
 
   # While you haven't narrowed it down to one element ...
   while low <= high:
